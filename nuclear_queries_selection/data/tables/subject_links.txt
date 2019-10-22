@@ -1,0 +1,17 @@
+id	links
+danrer	ftp://ftp.ensembl.org/pub/release-94/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.toplevel.fa.gz
+danrer.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/danio_rerio/cdna/Danio_rerio.GRCz11.cdna.all.fa.gz
+esoluc.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/esox_lucius/cdna/Esox_lucius.Eluc_V3.cdna.all.fa.gz
+gadmor.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/gadus_morhua/cdna/Gadus_morhua.gadMor1.cdna.all.fa.gz
+permag.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/periophthalmus_magnuspinnatus/cdna/Periophthalmus_magnuspinnatus.PM.fa.cdna.all.fa.gz
+hipcom.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/hippocampus_comes/cdna/Hippocampus_comes.H_comes_QL1_v1.cdna.all.fa.gz
+scomax.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/scophthalmus_maximus/cdna/Scophthalmus_maximus.ASM318616v1.cdna.all.fa.gz
+ampcit.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/amphilophus_citrinellus/cdna/Amphilophus_citrinellus.Midas_v5.cdna.all.fa.gz
+orenil.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/oreochromis_niloticus/cdna/Oreochromis_niloticus.Orenil1.0.cdna.all.fa.gz
+metzeb.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/maylandia_zebra/cdna/Maylandia_zebra.M_zebra_UMD2a.cdna.all.fa.gz
+ampper.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/amphiprion_percula/cdna/Amphiprion_percula.Nemo_v1.cdna.all.fa.gz
+orylat.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/oryzias_latipes_hsok/cdna/Oryzias_latipes_hsok.ASM223469v1.cdna.all.fa.gz
+xipmac.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/xiphophorus_maculatus/cdna/Xiphophorus_maculatus.X_maculatus-5.0-male.cdna.all.fa.gz
+takrub.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/takifugu_rubripes/cdna/Takifugu_rubripes.FUGU5.cdna.all.fa.gz
+labber.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/labrus_bergylta/cdna/Labrus_bergylta.BallGen_V1.cdna.all.fa.gz
+gasacu.cdna	ftp://ftp.ensembl.org/pub/release-94/fasta/gasterosteus_aculeatus/cdna/Gasterosteus_aculeatus.BROADS1.cdna.all.fa.gz

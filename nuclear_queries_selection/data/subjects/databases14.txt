@@ -1,0 +1,14 @@
+ampcit.cdna.fasta
+ampper.cdna.fasta
+esoluc.cdna.fasta
+gadmor.cdna.fasta
+gasacu.cdna.fasta
+hipcom.cdna.fasta
+labber.cdna.fasta
+metzeb.cdna.fasta
+orenil.cdna.fasta
+orylat.cdna.fasta
+permag.cdna.fasta
+scomax.cdna.fasta
+takrub.cdna.fasta
+xipmac.cdna.fasta

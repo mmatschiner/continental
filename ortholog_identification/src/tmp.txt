@@ -1,0 +1,15 @@
+FPO1.atram.fasta
+IUE5.atram.fasta
+JAG2.atram.fasta
+JAH5.atram.fasta
+JWD4.atram.fasta
+JWD5.atram.fasta
+JWD7.atram.fasta
+JWD8.atram.fasta
+JWD9.atram.fasta
+JWE1.atram.fasta
+JWE2.atram.fasta
+JWE4.atram.fasta
+JWF1.atram.fasta
+JWI5.atram.fasta
+LJD2.atram.fasta
