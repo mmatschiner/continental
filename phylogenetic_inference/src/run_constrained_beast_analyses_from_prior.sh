@@ -4,7 +4,7 @@
 for dir in ../res/beast/prior/constrained/replicates/r??
 do
     cd ${dir}
-    sbatch run_own_beast_accelerated.slurm
+    sbatch run_beast.slurm
     sleep 1 # To avoid multiple replicates having the same seed.
     cd -
 done

@@ -1,0 +1,1375 @@
+				<!-- Divergence age priors -->
+				<distribution id="totalgroup.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="totalgroup" spec="TaxonSet">
+						<taxon idref="lepocu"/>
+						<taxon idref="angang"/>
+						<taxon idref="cluhar"/>
+						<taxon idref="lamgut"/>
+						<taxon idref="reggle"/>
+						<taxon idref="poljap"/>
+						<taxon idref="guealt"/>
+						<taxon idref="parfra"/>
+						<taxon idref="astmex"/>
+						<taxon idref="danrer"/>
+						<taxon idref="eleele"/>
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="typsub"/>
+						<taxon idref="pertra"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="esoluc"/>
+						<taxon idref="salsal"/>
+						<taxon idref="osmepe"/>
+						<taxon idref="prohya"/>
+						<taxon idref="borant"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="bengla"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="sclfor"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="holostei.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="holostei.DuoFossilCalibration"
+						minYoungerOccuranceAge="251.2"
+						maxYoungerOccuranceAge="251.9"
+						minOlderOccuranceAge="259.1"
+						maxOlderOccuranceAge="262.1"
+						weightYoungerOccurance="1"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="holostei" spec="TaxonSet">
+						<taxon idref="lepocu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="teleostei.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="teleostei.FossilCalibration"
+					    minOccuranceAge="237.0"
+					    maxOccuranceAge="239.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="teleostei" spec="TaxonSet">
+						<taxon idref="angang"/>
+						<taxon idref="cluhar"/>
+						<taxon idref="lamgut"/>
+						<taxon idref="reggle"/>
+						<taxon idref="poljap"/>
+						<taxon idref="guealt"/>
+						<taxon idref="parfra"/>
+						<taxon idref="astmex"/>
+						<taxon idref="danrer"/>
+						<taxon idref="eleele"/>
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="typsub"/>
+						<taxon idref="pertra"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="esoluc"/>
+						<taxon idref="salsal"/>
+						<taxon idref="osmepe"/>
+						<taxon idref="prohya"/>
+						<taxon idref="borant"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="bengla"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="sclfor"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="osteoglossomorpha.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="osteoglossomorpha.FossilCalibration"
+					    minOccuranceAge="124.4"
+					    maxOccuranceAge="131.0"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="osteoglossomorpha" spec="TaxonSet">
+						<taxon idref="sclfor"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="elopomorpha.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="elopomorpha.FossilCalibration"
+					    minOccuranceAge="152.1"
+					    maxOccuranceAge="152.6"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="elopomorpha" spec="TaxonSet">
+						<taxon idref="angang"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="clupeocephala.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="clupeocephala.DuoFossilCalibration"
+						minYoungerOccuranceAge="150.9"
+						maxYoungerOccuranceAge="152.1"
+						minOlderOccuranceAge="152.2"
+						maxOlderOccuranceAge="153.9"
+						weightYoungerOccurance="1"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="clupeocephala" spec="TaxonSet">
+						<taxon idref="cluhar"/>
+						<taxon idref="lamgut"/>
+						<taxon idref="reggle"/>
+						<taxon idref="poljap"/>
+						<taxon idref="guealt"/>
+						<taxon idref="parfra"/>
+						<taxon idref="astmex"/>
+						<taxon idref="danrer"/>
+						<taxon idref="eleele"/>
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="typsub"/>
+						<taxon idref="pertra"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="esoluc"/>
+						<taxon idref="salsal"/>
+						<taxon idref="osmepe"/>
+						<taxon idref="prohya"/>
+						<taxon idref="borant"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="bengla"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="otomorpha.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="otomorpha.FossilCalibration"
+					    minOccuranceAge="150.9"
+					    maxOccuranceAge="152.1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="otomorpha" spec="TaxonSet">
+						<taxon idref="cluhar"/>
+						<taxon idref="danrer"/>
+						<taxon idref="astmex"/>
+						<taxon idref="eleele"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="clupeiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="clupeiformes.FossilCalibration"
+					    minOccuranceAge="125.0"
+					    maxOccuranceAge="139.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="clupeiformes" spec="TaxonSet">
+						<taxon idref="cluhar"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="cypriniformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="cypriniformes.FossilCalibration"
+					    minOccuranceAge="59.9"
+					    maxOccuranceAge="60.7"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="cypriniformes" spec="TaxonSet">
+						<taxon idref="danrer"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="characiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="characiformes.FossilCalibration"
+					    minOccuranceAge="113.0"
+					    maxOccuranceAge="126.3"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="characiformes" spec="TaxonSet">
+						<taxon idref="astmex"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="euteleosteomorpha.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="euteleosteomorpha.DuoFossilCalibration"
+						minYoungerOccuranceAge="150.9"
+						maxYoungerOccuranceAge="152.1"
+						minOlderOccuranceAge="152.2"
+						maxOlderOccuranceAge="153.9"
+						weightYoungerOccurance="1"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="euteleosteomorpha" spec="TaxonSet">
+						<taxon idref="lamgut"/>
+						<taxon idref="reggle"/>
+						<taxon idref="poljap"/>
+						<taxon idref="guealt"/>
+						<taxon idref="parfra"/>
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="typsub"/>
+						<taxon idref="pertra"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="esoluc"/>
+						<taxon idref="salsal"/>
+						<taxon idref="osmepe"/>
+						<taxon idref="prohya"/>
+						<taxon idref="borant"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="bengla"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="esociformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="esociformes.FossilCalibration"
+					    minOccuranceAge="83.5"
+					    maxOccuranceAge="84.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="esociformes" spec="TaxonSet">
+						<taxon idref="esoluc"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="salmoniformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="salmoniformes.FossilCalibration"
+					    minOccuranceAge="51.4"
+					    maxOccuranceAge="52.1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="salmoniformes" spec="TaxonSet">
+						<taxon idref="salsal"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="stomiatiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="stomiatiformes.FossilCalibration"
+					    minOccuranceAge="93.7"
+					    maxOccuranceAge="94.3"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="stomiatiformes" spec="TaxonSet">
+						<taxon idref="borant"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="osmeriformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="osmeriformes.FossilCalibration"
+					    minOccuranceAge="59.9"
+					    maxOccuranceAge="60.7"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="osmeriformes" spec="TaxonSet">
+						<taxon idref="osmepe"/>
+						<taxon idref="prohya"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="osmeridae.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="osmeridae.FossilCalibration"
+					    minOccuranceAge="32.6"
+					    maxOccuranceAge="33.9"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="osmeridae" spec="TaxonSet">
+						<taxon idref="osmepe"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="aulopiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="aulopiformes.FossilCalibration"
+					    minOccuranceAge="126.3"
+					    maxOccuranceAge="130.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="aulopiformes" spec="TaxonSet">
+						<taxon idref="parfra"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="myctophiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="myctophiformes.FossilCalibration"
+					    minOccuranceAge="80.7"
+					    maxOccuranceAge="81.3"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="myctophiformes" spec="TaxonSet">
+						<taxon idref="bengla"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="acanthomorphata.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="acanthomorphata.FossilCalibration"
+					    minOccuranceAge="98.0"
+					    maxOccuranceAge="106.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="acanthomorphata" spec="TaxonSet">
+						<taxon idref="lamgut"/>
+						<taxon idref="reggle"/>
+						<taxon idref="poljap"/>
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="typsub"/>
+						<taxon idref="pertra"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="polymixiiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="polymixiiformes.FossilCalibration"
+					    minOccuranceAge="94.0"
+					    maxOccuranceAge="97.1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="polymixiiformes" spec="TaxonSet">
+						<taxon idref="poljap"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="lampriformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="lampriformes.FossilCalibration"
+					    minOccuranceAge="98.0"
+					    maxOccuranceAge="100.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="lampriformes" spec="TaxonSet">
+						<taxon idref="reggle"/>
+						<taxon idref="lamgut"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="lampridae.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="lampridae.FossilCalibration"
+					    minOccuranceAge="25.2"
+					    maxOccuranceAge="27.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="lampridae" spec="TaxonSet">
+						<taxon idref="lamgut"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="paracanthopterygii.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="paracanthopterygii.FossilCalibration"
+					    minOccuranceAge="97.8"
+					    maxOccuranceAge="98.2"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="paracanthopterygii" spec="TaxonSet">
+						<taxon idref="pertra"/>
+						<taxon idref="typsub"/>
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+						<taxon idref="gadmor"/>
+						<taxon idref="stycho"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="percopsiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="percopsiformes.FossilCalibration"
+					    minOccuranceAge="63.6"
+					    maxOccuranceAge="66.0"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="percopsiformes" spec="TaxonSet">
+						<taxon idref="pertra"/>
+						<taxon idref="typsub"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="percopsidae.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="percopsidae.FossilCalibration"
+					    minOccuranceAge="59.9"
+					    maxOccuranceAge="62.2"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="percopsidae" spec="TaxonSet">
+						<taxon idref="pertra"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="zeiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="zeiformes.FossilCalibration"
+					    minOccuranceAge="83.0"
+					    maxOccuranceAge="89.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="zeiformes" spec="TaxonSet">
+						<taxon idref="cytros"/>
+						<taxon idref="zeufab"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="gadiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="gadiformes.FossilCalibration"
+					    minOccuranceAge="59.7"
+					    maxOccuranceAge="63.3"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="gadiformes" spec="TaxonSet">
+						<taxon idref="gadmor"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="acanthopterygii.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="acanthopterygii.FossilCalibration"
+					    minOccuranceAge="98.0"
+					    maxOccuranceAge="100.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="acanthopterygii" spec="TaxonSet">
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="berspl"/>
+						<taxon idref="acalue"/>
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="trachichthyiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="trachichthyiformes.FossilCalibration"
+					    minOccuranceAge="98.0"
+					    maxOccuranceAge="100.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="trachichthyiformes" spec="TaxonSet">
+						<taxon idref="monjap"/>
+						<taxon idref="gepdar"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="berycoidei.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="berycoidei.FossilCalibration"
+					    minOccuranceAge="33.9"
+					    maxOccuranceAge="47.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="berycoidei" spec="TaxonSet">
+						<taxon idref="berspl"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="stephanoberycoidei.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="stephanoberycoidei.DuoFossilCalibration"
+						minYoungerOccuranceAge="11.6"
+						maxYoungerOccuranceAge="13.8"
+						minOlderOccuranceAge="47.8"
+						maxOlderOccuranceAge="56.0"
+						weightYoungerOccurance="1"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="stephanoberycoidei" spec="TaxonSet">
+						<taxon idref="acalue"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="holocentriformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="holocentriformes.FossilCalibration"
+					    minOccuranceAge="98.0"
+					    maxOccuranceAge="100.5"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="holocentriformes" spec="TaxonSet">
+						<taxon idref="myrjac"/>
+						<taxon idref="holruf"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="percomorphaceae.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="percomorphaceae.DuoFossilCalibration"
+						minYoungerOccuranceAge="83.0"
+						maxYoungerOccuranceAge="89.8"
+						minOlderOccuranceAge="98.0"
+						maxOlderOccuranceAge="100.5"
+						weightYoungerOccurance="1"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="percomorphaceae" spec="TaxonSet">
+						<taxon idref="anates"/>
+						<taxon idref="chaarg"/>
+						<taxon idref="heltem"/>
+						<taxon idref="chamel"/>
+						<taxon idref="carmel"/>
+						<taxon idref="seldor"/>
+						<taxon idref="latcal"/>
+						<taxon idref="cynsem"/>
+						<taxon idref="pseyok"/>
+						<taxon idref="scomax"/>
+						<taxon idref="diclab"/>
+						<taxon idref="morsax"/>
+						<taxon idref="larcro"/>
+						<taxon idref="labber"/>
+						<taxon idref="antstr"/>
+						<taxon idref="anofim"/>
+						<taxon idref="chaace"/>
+						<taxon idref="gasacu"/>
+						<taxon idref="perflu"/>
+						<taxon idref="myosco"/>
+						<taxon idref="epiaen"/>
+						<taxon idref="spocar"/>
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+						<taxon idref="chrchr"/>
+						<taxon idref="psefus"/>
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+						<taxon idref="orylat"/>
+						<taxon idref="krymar"/>
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="notfur"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+						<taxon idref="parpar"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="orenil"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="andcoe"/>
+						<taxon idref="etrcan"/>
+						<taxon idref="ptyoli"/>
+						<taxon idref="parpol"/>
+						<taxon idref="andbis"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="aussci"/>
+						<taxon idref="apidip"/>
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="etingu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="ophidiaria.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="ophidiaria.FossilCalibration"
+					    minOccuranceAge="69.8"
+					    maxOccuranceAge="76.4"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="ophidiaria" spec="TaxonSet">
+						<taxon idref="brobar"/>
+						<taxon idref="caracu"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="batrachoidaria.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="batrachoidaria.FossilCalibration"
+					    minOccuranceAge="29.6"
+					    maxOccuranceAge="32.0"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="batrachoidaria" spec="TaxonSet">
+						<taxon idref="chamel"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="gobiaria.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="gobiaria.FossilCalibration"
+					    minOccuranceAge="48.9"
+					    maxOccuranceAge="49.2"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="gobiaria" spec="TaxonSet">
+						<taxon idref="lessan"/>
+						<taxon idref="persch"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="hippocampus.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="hippocampus.FossilCalibration"
+					    minOccuranceAge="11.3"
+					    maxOccuranceAge="12.2"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="hippocampus" spec="TaxonSet">
+						<taxon idref="hipcom"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="tetraodontiformes.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="tetraodontiformes.DuoFossilCalibration"
+						minYoungerOccuranceAge="83.0"
+						maxYoungerOccuranceAge="89.8"
+						minOlderOccuranceAge="98.0"
+						maxOlderOccuranceAge="100.5"
+						weightYoungerOccurance="2"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="tetraodontiformes" spec="TaxonSet">
+						<taxon idref="molmol"/>
+						<taxon idref="takrub"/>
+						<taxon idref="tetnig"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="lophiiformes.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="lophiiformes.FossilCalibration"
+					    minOccuranceAge="48.9"
+					    maxOccuranceAge="49.2"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="lophiiformes" spec="TaxonSet">
+						<taxon idref="antstr"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="morone.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="morone.FossilCalibration"
+					    minOccuranceAge="16.0"
+					    maxOccuranceAge="20.4"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="morone" spec="TaxonSet">
+						<taxon idref="morsax"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="channoidei.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="channoidei.FossilCalibration"
+					    minOccuranceAge="37.8"
+					    maxOccuranceAge="48.9"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="channoidei" spec="TaxonSet">
+						<taxon idref="chaarg"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="anabantoidei.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="anabantoidei.FossilCalibration"
+					    minOccuranceAge="23.0"
+					    maxOccuranceAge="37.8"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="anabantoidei" spec="TaxonSet">
+						<taxon idref="heltem"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="aplocheiloidei.prior" spec="beast.math.distributions.FossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<fossilDistr id="aplocheiloidei.FossilCalibration"
+					    minOccuranceAge="5.7"
+					    maxOccuranceAge="6.0"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.FossilCalibration"/>
+					<taxonset id="aplocheiloidei" spec="TaxonSet">
+						<taxon idref="krymar"/>
+						<taxon idref="notfur"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="cyprinodontoidei.prior" spec="beast.math.distributions.DuoFossilPrior" tree="@tree.t:Species" monophyletic="true">
+					<duoFossilDistr id="cyprinodontoidei.DuoFossilCalibration"
+						minYoungerOccuranceAge="28.1"
+						maxYoungerOccuranceAge="33.9"
+						minOlderOccuranceAge="47.8"
+						maxOlderOccuranceAge="56.0"
+						weightYoungerOccurance="2"
+						weightOlderOccurance="1"
+					    minSamplingRate="0.0066"
+					    maxSamplingRate="0.01806"
+					    minDivRate="0.041"
+					    maxDivRate="0.081"
+					    minTurnoverRate="0.0011"
+					    maxTurnoverRate="0.37"
+					    spec="beast.math.distributions.DuoFossilCalibration"/>
+					<taxonset id="cyprinodontoidei" spec="TaxonSet">
+						<taxon idref="cypvar"/>
+						<taxon idref="funhet"/>
+						<taxon idref="poefor"/>
+						<taxon idref="xipmac"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="cichlinae.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="cichlinae" spec="TaxonSet">
+						<taxon idref="apidip"/>
+						<taxon idref="aussci"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="ampzal"/>
+						<taxon idref="bujvit"/>
+						<taxon idref="andbis"/>
+						<taxon idref="andcoe"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="heroini.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="heroini" spec="TaxonSet">
+						<taxon idref="aussci"/>
+						<taxon idref="ampcit"/>
+						<taxon idref="ampzal"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="cichlasomatini.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="cichlasomatini" spec="TaxonSet">
+						<taxon idref="bujvit"/>
+						<taxon idref="andbis"/>
+						<taxon idref="andcoe"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="pseudocrenilabrinae.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="pseudocrenilabrinae" spec="TaxonSet">
+						<taxon idref="hetmul"/>
+						<taxon idref="tylpol"/>
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="etingu"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="orenil"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="heterochromini.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="heterochromini" spec="TaxonSet">
+						<taxon idref="hetmul"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="unnamed.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="unnamed" spec="TaxonSet">
+						<taxon idref="bencon"/>
+						<taxon idref="peltae"/>
+						<taxon idref="etingu"/>
+						<taxon idref="hemelo"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="orenil"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="haplotilapiini.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="haplotilapiini" spec="TaxonSet">
+						<taxon idref="etingu"/>
+						<taxon idref="metzeb"/>
+						<taxon idref="orenil"/>
+					</taxonset>
+				</distribution>
+
+				<distribution id="oreochromini.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="oreochromini" spec="TaxonSet">
+						<taxon idref="orenil"/>
+					</taxonset>
+				</distribution>
+				
+				<distribution id="pelagiaria_syngnatharia.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+					<taxonset id="pelagiaria_syngnatharia" spec="TaxonSet">
+						<taxon idref="thualb"/>
+						<taxon idref="pamarg"/>
+						<taxon idref="synsco"/>
+						<taxon idref="hipcom"/>
+					</taxonset>
+				</distribution>

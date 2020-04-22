@@ -14,5 +14,5 @@ do
     cp ../res/beast/prior/constrained/xml/strict_constrained.xml ../res/beast/prior/constrained/replicates/r0${n}
     cp ../bin/beast.jar ../res/beast/prior/constrained/replicates/r0${n}
     cp -r ../bin/cladeage ../res/beast/prior/constrained/replicates/r0${n}
-    cat run_own_beast_accelerated.slurm | sed "s/XXXXXX/pri_con/g" | sed "s/YYYYYY/strict_constrained/g" > ../res/beast/prior/constrained/replicates/r0${n}/run_own_beast_accelerated.slurm
+    cat run_beast.slurm | sed "s/XXXXXX/pri_con/g" | sed "s/YYYYYY/strict_constrained/g" > ../res/beast/prior/constrained/replicates/r0${n}/run_beast.slurm
 done

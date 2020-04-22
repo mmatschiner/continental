@@ -42,6 +42,6 @@ do
     do
 	mkdir -p ../res/beast/${mode}/unconstrained/replicates/r0${n}
 	cp ../res/beast/${mode}/unconstrained/xml/${mode}_unconstrained.xml ../res/beast/${mode}/unconstrained/replicates/r0${n}
-	cat run_beast_accelerated.slurm | sed "s/XXXXXX/${mode:0:2}_unc/g" | sed "s/YYYYYY/${mode}_unconstrained/g" > ../res/beast/${mode}/unconstrained/replicates/r0${n}/run_beast_accelerated.slurm
+	cat run_beast.slurm | sed "s/XXXXXX/${mode:0:2}_unc/g" | sed "s/YYYYYY/${mode}_unconstrained/g" > ../res/beast/${mode}/unconstrained/replicates/r0${n}/run_beast.slurm
     done
 done
